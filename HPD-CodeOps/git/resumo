@@ -1,0 +1,25 @@
+git config --global user.email “eduardofesilva@gmail.com”
+Git config --global user.name “Eduardo Fonseca”
+git init - inicializa um repo
+Git status - status dos arquivos do repo
+git add * - adiciona todos os arquivos do diretório ao repo
+Git add -A
+git commit -m "mensagem da alteraç�"- Ex: “adicionado nginx.conf”
+Git push e git pull = envia/baixa do repo
+Git log ou git log -p = traz os logs mais detalhados ou -pN últimos N commits detalhados
+git log --oneline
+Git reset HEAD arq1 = remover do head
+git reset HEAD = remove todos do head
+Git commit --amend = edit msg de commit
+git config --global core.excludesfile ~/.gitignore_global
+git branch -D about-page
+Deleted branch about-page (was 8c1f619).
+git branch
+* master
+git push origin :about-page
+To github.com:eduardofesilva/HPD-CodeOps.git
+ - [deleted]         about-page
+Git flow init
+Git flow feature start blabla
+Git flow release start olio
+Git flow feature finish balboa
