@@ -1,0 +1,45 @@
+[200~Comandos
+------------------------------
+Ctrl+R = busca um comando no history
+Caso não seja a primeira opção a correta basta continuar pressionar ctrl + R para ver os outros resultados
+-------------------------------
+history -c - limps o history da seesao actual
+Diretórios
+* Cor verde = arquivo executável 
+* Azul calcinha = link simbolico
+* Primeiro caracter = diretório, - (arquivo texto), link simbólico (L), dispositivo de bloco (b), dispositivo de caracter (c)
+* /boot/vmlinuz = kernel do linux
+* /dev = todos os devices da máquina
+* Ldd = lista todas as libraries utilizada por um binário
+* /srv = dados fornecidos para algum serviço 
+* /proc = dados de processo em execução (ps -ef) // obs: meminfo,cpuinfo
+* /sys = informações dinâmicas do kernel e sistemas
+* /usr = arquivos instalados pos a instalacao do linux
+* /usr/src = baixar e compilar novos kernel
+* /usr/local/bin = arquivos compilados
+* /var = dados variáveis
+    * /var/log
+    * /var/lib
+
+Permissões
+R = read = 4
+W = write = 2
+X = execute = 1
+Stick Bit
+T =1
+SGID = 2
+SUID = 4
+
+rwx - rwx - rwx
+Done - Grupo Dono - Outros
+U = dono
+G = grupo
+O = Outros
+A = todos
+
+Chmod = muda permiso dir/arquivo
+Chown = muda dono ou grupo dono
+Chgrp = mudo grupo dono
+/etc/password
+
+Nome:representa_a_senha:uid:gid:comentario:diretorio_home:shell
